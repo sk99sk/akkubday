@@ -5,7 +5,7 @@ function startCountdown() {
     const countdownElement = document.getElementById('countdown');
     
     // Replace this with the actual date of the birthday
-    const birthdayDate = new Date('2024-08-06T00:00:00').getTime();
+    const birthdayDate = new Date('2024-08-06T00:22:00').getTime();
 
     const interval = setInterval(function() {
         const now = new Date().getTime();
